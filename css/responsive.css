@@ -15,7 +15,7 @@
         flex-direction: column-reverse;
         margin: 28px 0 60px;
     }
-    .bannerContent, .plants, .flowerLover{
+    .bannerContent, .plants, .flowerLover, .deals{
         margin: 0 16px;
     }
     .bannerTitle{
@@ -69,5 +69,32 @@
     }
     .flowerContent li{
         margin-bottom: 15px;
+    }
+    /* deals media */
+    .deal{
+        display: grid;
+        grid-template-columns: 1fr;
+        margin-bottom: 40px;
+    }
+    .childOne{
+        /* justify-items: center; */
+    }
+    .zaboPlant{
+        padding: 60px 48px 54px 48px;
+    }
+    .zaboPlant{
+        width: 97%;
+        height: 172px;
+        border-radius: 14px;
+    }
+    .zaboTitle, .bloomTitle, .anaTitle{
+        font-size:1.25rem;
+        margin-bottom: 15px;
+    }
+    .zaboDescription, .bloomDescription, .anaDescription{
+        font-size: 1rem;
+    }
+    .deal{
+        margin-left: 15px;
     }
 }
