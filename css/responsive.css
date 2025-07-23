@@ -15,7 +15,7 @@
         flex-direction: column-reverse;
         margin: 28px 0 60px;
     }
-    .bannerContent, .plants, .flowerLover, .deals{
+    .bannerContent, .plants, .flowerLover, .deals, .footerCard{
         margin: 0 16px;
     }
     .bannerTitle{
@@ -99,7 +99,6 @@
     }
     /* join media */
     .join{
-        /* width: 100%; */
         padding: 115px 36px 61px 36px;
     }
     .joinTitle{
@@ -109,7 +108,23 @@
         width: 218px;
     }
     .join input[type="button"]{
-    width: 103px;
-    margin-left: -5px;
-}
+        width: 103px;
+        margin-left: -5px;
+    }
+    /* footer media */
+    .footerCard{
+        margin-top: 50px;
+        margin-bottom: 50px;
+        flex-direction: column;
+        gap: 0;
+    }
+    .footerChildCard ul{
+        grid-template-columns: 1fr;
+    }
+    .footerChild img,.footerDescription{
+        margin-top: 20px;
+    }
+    .footerDescription{
+        margin-bottom: 20px;
+    }
 }

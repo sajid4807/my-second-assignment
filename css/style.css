@@ -259,3 +259,28 @@ nav ul li{
     background-color: var(--primary-color);
     color: #fff;
 }
+/* footer styles */
+.footerCard{
+    margin: 50px 0;
+    display: flex;
+    gap: 90px;
+}
+.footerChildOne{
+    max-width: 359px;
+}
+.footerDescription{
+    font-size: 1.25rem;
+    color: rgba(0, 0, 0, 0.5);
+}
+.footerChildCard ul{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 90px;
+    row-gap: 30px;
+}
+.footerChildCard ul li a{
+    color: #6b7280;
+}
+.footerChild img{
+    margin-right: 24px;
+}
