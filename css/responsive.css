@@ -1,0 +1,29 @@
+/* mobile device */
+@media screen and (max-width:575px) {
+    /* navbar media */
+    .nav-menu ul{
+        display: none;
+    }
+    nav{
+        margin: 13px 16px 0 16px;
+    }
+    .nav-logo img{
+        width: 55%;
+    }
+    /* banner media */
+    .banner{
+        flex-direction: column-reverse;
+        margin: 28px 0 60px;
+    }
+    .bannerContent{
+        margin: 0 16px;
+    }
+    .bannerTitle{
+        margin-top: 28px;
+        font-size: 1.5rem;
+    }
+    .bannerDescription{
+        font-size: 1rem;
+        margin-bottom: 13px;
+    }
+}
