@@ -97,4 +97,19 @@
     .deal{
         margin-left: 15px;
     }
+    /* join media */
+    .join{
+        /* width: 100%; */
+        padding: 115px 36px 61px 36px;
+    }
+    .joinTitle{
+        font-size: 1.25rem;
+    }
+    .join input[type="email"]{
+        width: 218px;
+    }
+    .join input[type="button"]{
+    width: 103px;
+    margin-left: -5px;
+}
 }

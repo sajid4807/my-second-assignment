@@ -143,7 +143,7 @@ nav ul li{
     width: 540px;
 }
 .flowerTitle{
-    font-family: var(--second-family);
+    font-family: var(--second-font);
     font-weight: 700;
     font-size: 3.5rem;
 }
@@ -205,7 +205,7 @@ nav ul li{
     background-blend-mode: multiply;
 }
 .bloomTitle, .anaTitle{
-    font-family: var(--second-family);
+    font-family: var(--second-font);
     font-weight: 700;
     font-size: 1.25rem;
     margin-bottom: 19px;
@@ -218,7 +218,7 @@ nav ul li{
     padding: 172px 127px 151px;
 }
 .zaboTitle{
-    font-family: var(--second-family);
+    font-family: var(--second-font);
     font-weight: 700;
     font-size: 2.5rem;
     margin-bottom: 15px;
@@ -227,4 +227,35 @@ nav ul li{
     font-weight: 600;
     font-size: 1.75rem;
     text-decoration: underline;
+}
+/* join styles */
+.join{
+    background-image: url(../images/news-letter-bg.png);
+    background-size: cover;
+    text-align: center;
+    padding: 199px 305px;
+}
+.joinTitle{
+    font-family: var(--second-font);
+    font-weight: 700;
+    font-size: 3.25rem;
+    color: #fff;
+    margin-bottom: 23px;
+}
+.join input[type="email"]{
+    width: 644px;
+    height: 50px;
+    padding-left: 20px;
+    color: rgba(0, 0, 0, 0.5);
+    border: none;
+    outline: none;
+}
+.join input[type="button"]{
+    width: 186px;
+    height: 50px;
+    margin-left: -5px;
+    border: none;
+    font-weight: 600;
+    background-color: var(--primary-color);
+    color: #fff;
 }
