@@ -100,7 +100,7 @@ nav ul li{
 }
 /* plants styles */
 .plants{
-    margin-bottom: 80px;
+    margin-bottom: 180px;
 }
 .plants-card{
     display: grid;
@@ -131,4 +131,36 @@ nav ul li{
     color: #fff;
     background-color: var(--primary-color);
     border: none;
+}
+/* flower lover styles */
+.flowerLover{
+    display: flex;
+    align-items: center;
+    gap: 60px;
+    margin-bottom: 120px;
+}
+.flowerImg img{
+    width: 540px;
+}
+.flowerTitle{
+    font-family: var(--second-family);
+    font-weight: 700;
+    font-size: 3.5rem;
+}
+.flowerContent ul{
+    list-style:disc;
+    font-size: 1.5rem;
+    color: rgba(0, 0, 0, 0.5);
+}
+.flowerContent li{
+    margin-bottom: 20px;
+}
+.flowerImg {
+    position: relative;
+}
+.flowerImg .badge{
+    max-width: 286px;
+    position: absolute;
+    top: -127px;
+    right:-93px;
 }
