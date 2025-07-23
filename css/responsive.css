@@ -15,7 +15,7 @@
         flex-direction: column-reverse;
         margin: 28px 0 60px;
     }
-    .bannerContent{
+    .bannerContent, .plants{
         margin: 0 16px;
     }
     .bannerTitle{
@@ -24,6 +24,30 @@
     }
     .bannerDescription{
         font-size: 1rem;
-        margin-bottom: 13px;
     }
+    /* plants styles */
+    .plants-card{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .headingTitle{
+        font-size:1.5rem;
+    }
+    .card img{
+        width: 100%;
+    }
+    .description{
+        font-size: 1.2rem;
+        margin: 10px 0 25px;
+    }
+    .plants-title{
+        font-size: 1rem;
+    }
+    .plants-price{
+        font-size: 1rem;
+        margin: 10px 0 15px;
+    }
+    .plants-btn{
+        padding: 19px 48px;
+    }
+    
 }

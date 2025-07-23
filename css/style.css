@@ -24,6 +24,21 @@ body{
     background-color: #f5f8ff;
     font-family: var(--primary-font);
 }
+.headingTitle{
+    font-family: var(--second-font);
+    font-weight: 700;
+    font-size: 3.25rem;
+    text-align: center;
+}
+.headingTitle span{
+    color: var(--primary-color);
+}
+.description{
+    font-size: 1.25rem;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.5);
+    margin: 10px 0 48px;
+}
 /* navbar styles */
 nav{
     display: flex;
@@ -44,19 +59,14 @@ nav ul li{
     margin-right: 48px;
 }
 .home{
-    font-family: var(--primary-font);
     font-weight: 700;
-    font-size: 1rem;
     color: var(--second-color);
 }
 .shop{
-    font-family: var(--primary-font);
     font-size: 1rem;
     color: #8987a1;
 }
 .nav-menu-cart p{
-    font-family: var(--primary-font);
-    font-size: 1rem;
     margin-left: 10px;
 }
 /* banner styles */
@@ -87,4 +97,38 @@ nav ul li{
     font-size: 1.5rem;
     color: rgba(0, 0, 0, 0.5);
     margin-top: 13px;
+}
+/* plants styles */
+.plants{
+    margin-bottom: 80px;
+}
+.plants-card{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+.card img{
+    max-width: 270px;
+}
+.plants-child{
+    text-align: center;
+}
+.plants-title{
+    font-weight: 500;
+    font-size: 1.25rem;
+    color: #111;
+    margin-top: 20px;
+}
+.plants-price{
+    font-weight: 700;
+    font-size: 1.25rem;
+    color: #111;
+    margin: 10px 0 15px;
+}
+.plants-btn{
+    padding: 19px 87px;
+    font-weight: 600;
+    color: #fff;
+    background-color: var(--primary-color);
+    border: none;
 }
